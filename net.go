@@ -43,9 +43,9 @@ func handleRoot(w http.ResponseWriter, r *http.Request) {
   switch strings.Split(r.URL.Path, ".")[1] {
   case "css":
     cType = "text/css"
-  case "html"
+  case "html":
     cType = "text/html"
-  case "js"
+  case "js":
     cType = "application/javascript"
   default:
     cType = "text/plain"

@@ -2,7 +2,7 @@ body{
   background-color: #282828;
   color: #d1c9a7;
   font-family: 'Open Sans', sans-serif;
-  padding: 0px 10% 10% 10%;
+  padding: 0px 10% 0px 10%;
 }
 
 .big {
@@ -16,10 +16,16 @@ span {
   font-family: 'Open Sans', sans-serif;
 }
 
-p {
-  font-size: 35px;
+.notbig {
+  font-size: 30px;
+  width: 85%;
+  margin: auto;
 }
 
 small {
-  font-size: 25px;
+  font-size: 23px;
+}
+
+a {
+  color: #d1c9a7;
 }
