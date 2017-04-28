@@ -1,0 +1,25 @@
+body{
+  background-color: #282828;
+  color: #d1c9a7;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0px 10% 10% 10%;
+}
+
+.big {
+  font-family: 'Amaranth', sans-serif;
+  font-size: 100px;
+  text-align: center;
+}
+
+span {
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  font-size: 35px;
+}
+
+small {
+  font-size: 25px;
+}
