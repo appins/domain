@@ -8,12 +8,6 @@ import (
   "net/http"
 )
 
-/*
-func writeCache(){
-
-}
-*/
-
 // Handle all trafic to '/' and all other misc file requests
 func handleRoot(w http.ResponseWriter, r *http.Request) {
   defer r.Body.Close()
