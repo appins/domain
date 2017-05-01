@@ -1,8 +1,15 @@
+@keyframes fadein {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
 body{
   background-color: #282828;
   color: #d1c9a7;
   font-family: 'Open Sans', sans-serif;
   padding: 0px 10% 0px 10%;
+  animation-name: fadein;
+  animation-duration: 3s;
 }
 
 .big {
