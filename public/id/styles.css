@@ -1,0 +1,22 @@
+body {
+  background-color: #4357AD;
+  color: #E4DFDA;
+  font-family: 'Open Sans', sans-serif;
+  padding-top: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.big {
+  font-size: 60px;
+}
+
+.desc {
+  font-size: 25px;
+  line-height: 1.7;
+}
+
+input {
+  font-size: 20px;
+  
+}

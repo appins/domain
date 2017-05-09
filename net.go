@@ -23,6 +23,12 @@ func handleRoot(w http.ResponseWriter, r *http.Request) {
     return
   }
 
+  if r.URL.Path == "/id/" || r.URL.Path == "/id" {
+    dat, _ := os.Open("id/index.html")
+    io.Copy(w, dat)
+    return
+  }
+
   dat, err := os.Open("public/" + r.URL.Path)
   if err != nil {
     fmt.Println("404 page requested:", r.URL.Path)
