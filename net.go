@@ -31,6 +31,7 @@ func handleRoot(w http.ResponseWriter, r *http.Request) {
 
   dat, err := os.Open("public/" + r.URL.Path)
   if err != nil {
+    panic(err)
     fmt.Println("404 page requested:", r.URL.Path)
     io.WriteString(w, "404 page not found")
     return

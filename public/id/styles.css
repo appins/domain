@@ -1,22 +1,47 @@
 body {
-  background-color: #4357AD;
-  color: #E4DFDA;
   font-family: 'Open Sans', sans-serif;
-  padding-top: 30px;
-  padding-left: 5%;
-  padding-right: 5%;
+  margin: 0;
+  padding: 0;
 }
 
 .big {
-  font-size: 60px;
+  font-size: 5vw;
 }
 
-.desc {
-  font-size: 25px;
+.desc, .swing {
+  margin-top: -40px;
+  font-size: 2vw;
   line-height: 1.7;
+}
+
+small {
+  font-size: 1.25vw;
 }
 
 input {
   font-size: 20px;
-  
+
+}
+
+.intro {
+  height: 100vh;
+  padding-top: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #4357AD;
+  color: #E4DFDA;
+}
+
+.intro a{
+  background-color: #4357AD;
+  color: #E4DFDA;
+}
+
+.swing {
+  margin-top: -5vh;
+  text-align: center;
+}
+
+span {
+  font-weight: 600;
 }
