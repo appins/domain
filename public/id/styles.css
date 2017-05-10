@@ -10,7 +10,7 @@ body {
 
 .desc, .swing {
   margin-top: -40px;
-  font-size: 2vw;
+  font-size: 2.5vh;
   line-height: 1.7;
 }
 
@@ -25,7 +25,7 @@ input {
 
 .intro {
   height: 100vh;
-  padding-top: 30px;
+  padding-top: 1px;
   padding-left: 5%;
   padding-right: 5%;
   background-color: #4357AD;
@@ -38,7 +38,7 @@ input {
 }
 
 .swing {
-  margin-top: -5vh;
+  margin-top: 20vh;
   text-align: center;
 }
 
