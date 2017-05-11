@@ -8,6 +8,10 @@ body {
   font-size: 10vh;
 }
 
+.big2 {
+  font-size: 6vh;
+}
+
 .desc, .swing {
   margin-top: -40px;
   font-size: 3vh;
@@ -32,8 +36,7 @@ input {
   background-attachment: fixed;
 }
 
-.intro a{
-  background-color: #4357AD;
+a{
   color: #E4DFDA;
 }
 
@@ -49,7 +52,7 @@ input {
   height: 100vh;
   background-attachment: fixed;
   padding-left: 5%;
-  padding-right: 5%;
+  display: flex;
 }
 
 .sbox {
@@ -67,8 +70,28 @@ input {
   margin-left: .5vw;
   margin-right: .5vw;
   width: 16vw;
+  border-width: .01vw
+}
+
+.rightsu {
+  float: left;
+  width: 50vw;
+  background-color: #D4B483;
+  flex-grow: 1;
+  padding-top: 40vh;
+  padding-right: 5%;
+  padding-left: 2.5%;
 }
 
 .descin {
   width: 41vw;
+}
+
+.leftsu {
+
+  width: 50vw;
+}
+
+.normalsize {
+  font-size: 2vh;
 }

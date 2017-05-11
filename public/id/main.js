@@ -13,7 +13,7 @@ function getNameAtCounter() {
   var counterclone = counter;
   var toandfrom = ["Alex uses his", "Hugo uses his", "Zach uses his",
   "Noah uses his", "Peter uses his", "Chris uses his", "Mitchel uses his",
-  "Sue uses her", "I use my"];
+  "Sue uses her", "I use my", "Some people use their"];
   var whereBool;
   var lpos = 0;
 
