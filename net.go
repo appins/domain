@@ -24,7 +24,7 @@ func handleRoot(w http.ResponseWriter, r *http.Request) {
   }
 
   if r.URL.Path == "/id/" || r.URL.Path == "/id" {
-    dat, _ := os.Open("id/index.html")
+    dat, _ := os.Open("public/id/index.html")
     io.Copy(w, dat)
     return
   }
