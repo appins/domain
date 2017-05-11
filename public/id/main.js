@@ -23,7 +23,7 @@ function getNameAtCounter() {
       whereBool = false;
       break;
     }
-    counterclone -= 5;
+    counterclone -= 1;
     if(counterclone < 0) {
       whereBool = true;
       break;
@@ -62,7 +62,7 @@ function getNameAtCounter() {
 function getDescAtCounter() {
   var counterclone = counterDesc;
   var toandfrom = ["share with classmates.", "keep in touch.",
-  "contact teachers.", "talk with friends.", "ask what the homework was."]
+  "contact teachers.", "talk with friends.", "to ask what the homework was."];
   var whereBool;
   var lpos = 0;
 
@@ -72,7 +72,7 @@ function getDescAtCounter() {
       whereBool = false;
       break;
     }
-    counterclone -= 5;
+    counterclone -= 1;
     if(counterclone < 0) {
       whereBool = true;
       break;
