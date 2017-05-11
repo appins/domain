@@ -1,0 +1,13 @@
+.big{
+  font-size: 5vh;
+}
+
+input, .sbox {
+  width: 75vw;
+  font-size: 50px;
+}
+
+form {
+  width: 90vw;
+  margin: 0;
+}

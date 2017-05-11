@@ -43,8 +43,32 @@ input {
 }
 
 .signupdiv {
-  background-color: #D4B483;
+  padding-top: 0.1px;
+  background-color: #C1666B;
   color: #E4DFDA;
   height: 100vh;
   background-attachment: fixed;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.sbox {
+  margin-left: .5vw;
+  margin-right: .5vw;
+  width: 11vw;
+}
+
+form {
+  width: 45vw;
+  margin: auto;
+}
+
+input {
+  margin-left: .5vw;
+  margin-right: .5vw;
+  width: 16vw;
+}
+
+.descin {
+  width: 41vw;
 }

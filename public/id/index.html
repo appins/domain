@@ -5,14 +5,15 @@
     <title>Identification</title>
     <link href="https://fonts.googleapis.com/css?family=Amaranth|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="/id/styles.css">
+    <link rel="stylesheet" media="screen and (max-device-width: 700px)" href="/id/mobile.css">
     <script src="/id/main.js" charset="utf-8"></script>
   </head>
   <body>
     <div class="intro">
       <p class="big">
-        Create your own <span id="adj">personal</span> id in seconds. </p>
+        Create your own <span id="adj">personal</span> id in seconds.
+      </p>
       <p class="desc">
-        <br>
         <p class="swing">
           <span id="names">Alex</span>
             id to
@@ -25,7 +26,26 @@
     <br>
     </div>
     <div class="signupdiv">
-
+      <p class="big">
+        Sign up in seconds, continue using for years.
+        <small>All steps are optional</small>
+      </p>
+      <form action="/idcreate" method="post">
+        <input type="text" name="fullname" placeholder="Full name">
+        <input type="username" name="username" placeholder="Username" class="sbox">
+        <input type="phone" name="phone" placeholder="Phone Number" class="sbox">
+        <br>
+        <br>
+        <input type="email" name="email" placeholder="Email Address">
+        <input type="Number" name="age" placeholder="Age" class="sbox">
+        <input type="text" name="github" placeholder="GitHub Username" class="sbox">
+        <br>
+        <br>
+        <input type="text" name="desc" placeholder="Description or Bio" class="descin">
+        <br>
+        <br>
+        <button type="submit">Go!</button>
+      </form>
     </div>
   </body>
 </html>
