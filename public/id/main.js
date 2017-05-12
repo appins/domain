@@ -137,6 +137,6 @@ function repeatNames() {
     }
     repeatNames();
 
-  }, 60);
+  }, 50);
 
 }
