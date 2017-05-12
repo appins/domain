@@ -55,14 +55,8 @@ a{
   display: flex;
 }
 
-.sbox {
-  margin-left: .5vw;
-  margin-right: .5vw;
-  width: 11vw;
-}
-
 form {
-  width: 45vw;
+  width: 17vw;
   margin: auto;
 }
 
@@ -70,28 +64,37 @@ input {
   margin-left: .5vw;
   margin-right: .5vw;
   width: 16vw;
-  border-width: .01vw
+  border-width: 0px;
+  font-size: 1.1vw;
+  background-color: #EDEDED;
+  color: #282828;
 }
 
 .rightsu {
   float: left;
-  width: 50vw;
-  background-color: #D4B483;
+  width: 33vw;
+  background-color: #EDEDED;
   flex-grow: 1;
-  padding-top: 40vh;
-  padding-right: 5%;
+  padding-top: 30vh;
   padding-left: 2.5%;
 }
 
 .descin {
-  width: 41vw;
+  width: 16vw;
 }
 
 .leftsu {
-
-  width: 50vw;
+  padding-right: 2.5%;
+  width: 55vw;
 }
 
 .normalsize {
   font-size: 2vh;
+}
+
+.btn {
+  font-size: 1.1vw;
+  width: 16vw;
+  margin-left: .5vw;
+  border-width: 0px;
 }
