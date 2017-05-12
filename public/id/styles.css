@@ -84,7 +84,7 @@ input {
 }
 
 .leftsu {
-  padding-right: 2.5%;
+  padding-right: 5%;
   width: 55vw;
 }
 
@@ -97,4 +97,9 @@ input {
   width: 16vw;
   margin-left: .5vw;
   border-width: 0px;
+}
+
+.red {
+  color: #C1666B;
+  font-size: .9vw;
 }
