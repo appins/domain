@@ -1,2 +1,2 @@
 # Domain
-The code that is ran on my domain when it is online.
+Code that used to be run on my website 
